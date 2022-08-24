@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+body::before{
+    display: block;
+    content: '';
+    height: 70px;
+}
+
+.btn{
+    background-color: #6C63FF;
+}
+
+#languages i{
+    font-size: 80px;
+}
+
+#project-popup .modal-img{
+    width: 100%;
+}
+
+.card-title{
+    color: #6C63FF;
+}
+
+.accordion-button:hover {
+    background-color: #6C63FF;
+    color: #ffffff;
+}
+
+/* #developer{
+    background-color: #6C63FF;
+} */
+
+.carousel-item{
+    height: 400px;
+}
+
+/* Back to Top Btn */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #8DB600;
+    cursor: pointer;
+}
+
+.ms-3{
+    font-size: 30px;
+}
+
+.ms-3 i{
+    color: #6C63FF;
+}
