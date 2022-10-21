@@ -644,21 +644,6 @@
       }
     </script>
 
-    <!-- Count Views -->
-    <script>
-      const countEl = document.getElementById('count');
-
-      updateVisitCount();
-
-      function updateVisitCount(){
-        fetch('https://alecsbobik.github.io/lecstudio/')
-        .then(res => res.json())
-        .then(res => {
-          countEl.innerHTML = res.value;
-        });
-      }
-    </script>
-
     </script>
   </body>
 </html>
