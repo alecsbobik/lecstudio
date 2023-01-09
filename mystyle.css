@@ -1,68 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body{
-    scroll-behavior: smooth;
+html,
+body {
+  scroll-behavior: smooth;
 }
 
-body::before{
-    display: block;
-    content: '';
-    height: 70px;
+body::before {
+  display: block;
+  content: "";
+  height: 70px;
 }
 
-.nav-item i{
-    font-size: 26px;
+.nav-item i {
+  font-size: 26px;
 }
 
-.btn{
-    background-color: #6C63FF;
+.btn {
+  background-color: #6c63ff;
 }
 
-#languages i{
-    font-size: 80px;
+#showcase {
+  height: auto;
 }
 
-#project-popup .modal-img{
-    width: 100%;
+#languages i {
+  font-size: 80px;
 }
 
-.card-title{
-    color: #6C63FF;
+#project-popup .modal-img {
+  width: 100%;
+}
+
+.card-title {
+  color: #6c63ff;
 }
 
 .accordion-button:hover {
-    background-color: #6C63FF;
-    color: #ffffff;
+  background-color: #6c63ff;
+  color: #ffffff;
 }
 
-.carousel-item{
-    height: 400px;
+.carousel-item {
+  height: 400px;
+}
+
+#count {
+  color: #6c63ff;
+  font-size: 22px;
 }
 
 /* Back to Top Btn */
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    color: #ffffff;
-    background-color: #8DB600;
-    cursor: pointer;
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #8db600;
+  cursor: pointer;
 }
 
-.ms-3{
-    font-size: 30px;
+.footer i {
+  color: #6c63ff;
 }
 
-.ms-3 i{
-    color: #6C63FF;
+.icon {
+  font-size: 30px;
 }
