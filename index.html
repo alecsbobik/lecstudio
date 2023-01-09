@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/dd9593e93d.js"
       crossorigin="anonymous"
@@ -17,32 +19,52 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
     <link rel="stylesheet" href="mystyle.css" />
-    <title>LEC STUDIOS</title>
+    <title>LEC STUDIO</title>
   </head>
-  <body>
-
+  <body onload="checkCookie()">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><strong>LEC STUDIOS</strong></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"><strong>LEC STUDIO</strong></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse align-content-end justify-content-end" id="navbarNavDropdown">
+        <div
+          class="collapse navbar-collapse align-content-end justify-content-end"
+          id="navbarNavDropdown"
+        >
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#faqs">Projects</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item me-lg-5">
               <a class="nav-link" href="#faqs">FAQs</a>
             </li>
-            <li class="nav-item mx-lg-5">
-              <a class="nav-link" href="https://github.com/alecsbobik"><i class="fa-brands fa-github"></i></a>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/alecsbobik"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.youtube.com/@lecstudio"
+                target="_blank"
+                ><i class="fa fa-youtube"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -50,7 +72,10 @@
     </nav>
 
     <!-- Showcase -->
-    <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <section
+      id="showcase"
+      class="bg-dark text-light p-5 text-center text-sm-start"
+    >
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between py-4">
           <div>
@@ -117,28 +142,37 @@
 
     <!-- About -->
     <section id="about">
-      <div class="container-fluid bg-dark text-white w-100 p-0 d-sm-flex align-items-center justify-content-between">
-          <div class="w-100">
-            <img
-            class="img-fluid"
-            src="img/me1.jpg"
-            alt=""
-          />
-          </div>
-          
-          <div class="align-items-center justify-content-center align-content-center p-5 mx-auto w-100">
-            <h2 class="mb-5" style="color: #6C63FF; font-size: 20px;"><strong>ABOUT</strong></h2>
-            <h1 class="mb-3">Hello! It's me, <span style="color: #6c63ff"><strong>LEC</strong> </span>.</h1>
-            <p class="lead my-4">
-              20 year old college student that currenty shaping in Web Developing, especially in Front-end web. I also do programming project using C++ and Java.
-            </p>
-          </div>
+      <div
+        class="container-fluid bg-dark text-white w-100 p-0 d-sm-flex align-items-center justify-content-between"
+      >
+        <div class="w-100">
+          <img class="img-fluid" src="img/me1.jpg" alt="" />
+        </div>
+
+        <div
+          class="align-items-center justify-content-center align-content-center p-5 mx-auto w-100"
+        >
+          <h2 class="mb-5" style="color: #6c63ff; font-size: 20px">
+            <strong>ABOUT</strong>
+          </h2>
+          <h1 class="mb-3">
+            Hello! It's me,
+            <span style="color: #6c63ff"><strong>LEC</strong> </span>.
+          </h1>
+          <p class="lead my-4">
+            20 year old college student that currenty shaping in Web Developing,
+            especially in Front-end web. I also do programming project using C++
+            and Java.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- Divider -->
     <div class="container-fluid mt-5">
-      <h1 class="text-center" style="color: #6C63FF; font-size: 24px;"><strong>PROJECTS</strong></h1>
+      <h1 class="text-center" style="color: #6c63ff; font-size: 24px">
+        <strong>PROJECTS</strong>
+      </h1>
     </div>
 
     <!-- Projects -->
@@ -156,10 +190,12 @@
               />
 
               <div class="card-body">
-                <h5 class="d-inline-block mb-2 card-title"><strong >Javascript</strong></h5>
+                <h5 class="d-inline-block mb-2 card-title">
+                  <strong>Javascript</strong>
+                </h5>
                 <p class="card-text">
-                  A program consists of 3 buttons and p tag that will
-                    output the value of hex code and background.
+                  A program consists of 3 buttons and p tag that will output the
+                  value of hex code and background.
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
@@ -188,11 +224,14 @@
               />
 
               <div class="card-body">
-                <h5 class="d-inline-block mb-2 card-title"><strong >Javascript</strong></h5>
+                <h5 class="d-inline-block mb-2 card-title">
+                  <strong>Javascript</strong>
+                </h5>
                 <p class="card-text">
-                  This program is using .click() function of jQuery it changes the text color of span tag.
+                  This program is using .click() function of jQuery it changes
+                  the text color of span tag.
                 </p>
-                <br>
+                <br />
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a
@@ -201,7 +240,7 @@
                       type="button"
                       class="btn btn-sm btn-outline-secondary text-light"
                     >
-                    Source Code
+                      Source Code
                     </a>
                   </div>
                   <small class="text-muted">May 19, 2022</small>
@@ -220,12 +259,14 @@
               />
 
               <div class="card-body">
-                <h5 class="d-inline-block mb-2 card-title"><strong >Java</strong></h5>
+                <h5 class="d-inline-block mb-2 card-title">
+                  <strong>Java</strong>
+                </h5>
                 <p class="card-text">
-                  Java program that insert information and get information
-                  using switch case function.
+                  Java program that insert information and get information using
+                  switch case function.
                 </p>
-                <br>
+                <br />
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group btn-dark">
                     <a
@@ -234,7 +275,7 @@
                       type="button"
                       class="btn btn-sm btn-outline-secondary text-light"
                     >
-                    Source Code
+                      Source Code
                     </a>
                   </div>
                   <small class="text-muted">June 08, 2022</small>
@@ -242,7 +283,6 @@
               </div>
             </div>
           </div>
-          
 
           <div class="col">
             <div class="card bg-dark text-light shadow-sm">
@@ -255,9 +295,13 @@
               />
 
               <div class="card-body">
-                <h5 class="d-inline-block mb-2 card-title"><strong >HTML & CSS</strong></h5>
+                <h5 class="d-inline-block mb-2 card-title">
+                  <strong>HTML & CSS</strong>
+                </h5>
                 <p class="card-text">
-                  A Bike Store website with bike parts, services and accessories. This project is not responsive, expect that some of elements are not aligned.
+                  A Bike Store website with bike parts, services and
+                  accessories. This project is not responsive, expect that some
+                  of elements are not aligned.
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
@@ -267,7 +311,7 @@
                       type="button"
                       class="btn btn-sm btn-outline-secondary text-light"
                     >
-                    Source Code
+                      Source Code
                     </a>
                   </div>
                   <small class="text-muted">July 19, 2022</small>
@@ -286,9 +330,12 @@
               />
 
               <div class="card-body">
-                <h5 class="d-inline-block mb-2 card-title"><strong >HTML, CSS, Bootsrap & Javascript</strong></h5>
+                <h5 class="d-inline-block mb-2 card-title">
+                  <strong>HTML, CSS, Bootsrap & Javascript</strong>
+                </h5>
                 <p class="card-text">
-                  This is my Interactive Resume it includes animation and links. <br><br>
+                  This is my Interactive Resume it includes animation and links.
+                  <br /><br />
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
@@ -298,7 +345,7 @@
                       type="button"
                       class="btn btn-sm btn-outline-secondary text-light"
                     >
-                    Source Code
+                      Source Code
                     </a>
                   </div>
                   <small class="text-muted">July 20, 2022</small>
@@ -317,9 +364,13 @@
               />
 
               <div class="card-body">
-                <h5 class="d-inline-block mb-2 card-title"><strong >Java</strong></h5>
+                <h5 class="d-inline-block mb-2 card-title">
+                  <strong>Java</strong>
+                </h5>
                 <p class="card-text">
-                  POS, you can order and get the receipt. Plus, the program is not stopping so you can order again after you get your receipt. 
+                  POS, you can order and get the receipt. Plus, the program is
+                  not stopping so you can order again after you get your
+                  receipt.
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
@@ -329,7 +380,7 @@
                       type="button"
                       class="btn btn-sm btn-outline-secondary text-light"
                     >
-                    Source Code
+                      Source Code
                     </a>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -341,7 +392,7 @@
           <div class="col">
             <div class="card bg-dark text-light shadow-sm">
               <img
-                src="img/midterm_css.png"
+                src="img/python-house.png"
                 class="project-item rounded-top"
                 width="100%"
                 height="225"
@@ -349,9 +400,12 @@
               />
 
               <div class="card-body">
-                <h5 class="d-inline-block mb-2 card-title"><strong >Java</strong></h5>
+                <h5 class="d-inline-block mb-2 card-title">
+                  <strong>Python</strong>
+                </h5>
                 <p class="card-text">
-                  This is a Point of Sale program where user will insert the Item Number and Quantity. In addition, it prints your transaction with tax. 
+                  A automated drawing program in Python using the Turtle
+                  Library. <br /><br />
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
@@ -359,7 +413,7 @@
                       type="button"
                       class="btn btn-sm btn-outline-secondary text-light"
                     >
-                    Source Code
+                      Source Code
                     </button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -370,7 +424,7 @@
           <div class="col">
             <div class="card bg-dark text-light shadow-sm">
               <img
-                src="img/midterm_css.png"
+                src="img/python-xmas-tree.png"
                 class="project-item rounded-top"
                 width="100%"
                 height="225"
@@ -378,11 +432,12 @@
               />
 
               <div class="card-body">
-                <h5 class="d-inline-block mb-2 card-title"><strong >Java</strong></h5>
+                <h5 class="d-inline-block mb-2 card-title">
+                  <strong>Python</strong>
+                </h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  An Object and Graphics program that let the User draw a
+                  Christmas Tree using a Triangle. <br /><br />
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
@@ -390,7 +445,7 @@
                       type="button"
                       class="btn btn-sm btn-outline-secondary text-light"
                     >
-                    Source Code
+                      Source Code
                     </button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -409,7 +464,9 @@
               />
 
               <div class="card-body">
-                <h5 class="d-inline-block mb-2 card-title"><strong >Java</strong></h5>
+                <h5 class="d-inline-block mb-2 card-title">
+                  <strong>Python</strong>
+                </h5>
                 <p class="card-text">
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
@@ -421,7 +478,7 @@
                       type="button"
                       class="btn btn-sm btn-outline-secondary text-light"
                     >
-                    Source Code
+                      Source Code
                     </button>
                   </div>
                   <small class="text-muted">9 mins</small>
@@ -435,32 +492,32 @@
 
     <!-- Modal -->
     <div
-    class="modal fade"
-    id="project-popup"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog ">
-      <div class="modal-content">
-        <div class="modal-header">
-          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">
-          <img
-            src="img/midterm_css.png"
-            class="modal-img"
-            alt="Modal Image"
-          />
+      class="modal fade"
+      id="project-popup"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="img/midterm_css.png"
+              class="modal-img"
+              alt="Modal Image"
+            />
+          </div>
         </div>
       </div>
-    </div>
     </div>
 
     <!-- FAQs -->
@@ -471,45 +528,96 @@
           <!-- Item 1 -->
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
                 How long does it take to build a Website?
               </button>
             </h2>
-            <div id="question-one" class="accordion-collapse collapse"  data-bs-parent="#questions">
-              <div class="accordion-body">This does depend on a whole host of factors from whether it is a bespoke web design or from a template, whether you need any specific custom functionality, where your content is coming from and how much there is, to name a few.</div>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                This does depend on a whole host of factors from whether it is a
+                bespoke web design or from a template, whether you need any
+                specific custom functionality, where your content is coming from
+                and how much there is, to name a few.
+              </div>
             </div>
           </div>
           <!-- Item 2 -->
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
                 Where is your website hosted?
               </button>
             </h2>
-            <div id="question-two" class="accordion-collapse collapse"  data-bs-parent="#questions">
-              <div class="accordion-body">I use GitHub for web hosting but I only used it for static website.</div>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                I use GitHub for web hosting but I only used it for static
+                website.
+              </div>
             </div>
           </div>
           <!-- Item 3 -->
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
                 Where do you study?
               </button>
             </h2>
-            <div id="question-three" class="accordion-collapse collapse"  data-bs-parent="#questions">
-              <div class="accordion-body">I am 3rd year I'm student and studying in Eulogio "Amang" Rodriguez Institute of Science and Technology (EARIST) in Manila branch.</div>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                I am 3rd year I'm student and studying in Eulogio "Amang"
+                Rodriguez Institute of Science and Technology (EARIST) in Manila
+                branch.
+              </div>
             </div>
           </div>
           <!-- Item 4 -->
           <div class="accordion-item">
             <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
                 Do you plan to study another programming language?
               </button>
             </h2>
-            <div id="question-four" class="accordion-collapse collapse"  data-bs-parent="#questions">
-              <div class="accordion-body">Yes, I'm currently studying PHP because I want to build a dynamic website this year. </div>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Yes, I'm currently studying PHP because I want to build a
+                dynamic website this year.
+              </div>
             </div>
           </div>
         </div>
@@ -517,42 +625,80 @@
     </section>
 
     <!-- Divider -->
-    <div class="container-fluid p-5">
-      <h1 class="text-center" style="color: #6C63FF; font-size: 24px;"><strong>EDUCATIONAL BACKGROUND</strong></h1>
+    <div class="container-fluid p-4">
+      <h1 class="text-center" style="color: #6c63ff; font-size: 24px">
+        <strong>EDUCATIONAL BACKGROUND</strong>
+      </h1>
     </div>
 
     <!-- Educational Background -->
-    <div id="carousel-educ" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div
+      id="carousel-educ"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
-          <img src="img/glgmnhs.png" class="d-block w-100 h-100" alt="">
+          <img src="img/glgmnhs.png" class="d-block w-100 h-100" alt="" />
           <div class="carousel-caption p-1">
             <p>This is a public high school where I took my junior high.</p>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="img/sjlshs.jpg" class="d-block w-100 h-100" alt="">
+          <img src="img/sjlshs.jpg" class="d-block w-100 h-100" alt="" />
           <div class="carousel-caption p-1">
-            <p>Here, I took ICT and have a programming and networking experience.</p>
+            <p>
+              Here, I took ICT and have a programming and networking experience.
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="img/earist.jpg" class="d-block w-100 h-100" alt="">
+          <img src="img/earist.jpg" class="d-block w-100 h-100" alt="" />
           <div class="carousel-caption p-1">
-            <p>I continued the knowledge and experience I had in my senior high here in this University.</p>
+            <p>
+              I continued the knowledge and experience I had in my senior high
+              here in this University.
+            </p>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-educ" data-bs-slide="prev">
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel-educ"
+        data-bs-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carousel-educ" data-bs-slide="next">
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel-educ"
+        data-bs-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -560,21 +706,27 @@
 
     <!-- Source Code -->
     <section id="source">
-      <div class="container p-5">
-        <div class="d-sm-flex align-items-center justify-content-between py-4 ">
+      <div class="container p-5 m-4 g-3">
+        <div class="d-sm-flex align-items-center justify-content-between py-4">
           <img
             class="img-fluid w-50 d-none d-sm-block p-2"
             src="img/proud_coder.svg"
             alt=""
           />
           <div id="source-caption" class="p-3 mx-sm-auto">
-            <h2 class="mb-5" style="color: #6C63FF; font-size: 20px;"><strong>SOURCE CODE</strong></h2>
+            <h2 class="mb-5" style="color: #6c63ff; font-size: 20px">
+              <strong>SOURCE CODE</strong>
+            </h2>
             <h1><strong>Behind the simulation</strong></h1>
             <p class="lead my-4">
-              I'm LEC, a passionate IT student bringing you programming and design from the future. I am experienced in developing web and programming including front end design.
+              I'm LEC, a passionate IT student bringing you programming and
+              design from the future. I am experienced in developing web and
+              programming including front end design.
             </p>
             <p>
-              <a href="#projects" class="btn text-light my-2 my-sm-1">Source Code</a>
+              <a href="#projects" class="btn text-light my-2 my-sm-1"
+                >Source Code</a
+              >
             </p>
           </div>
         </div>
@@ -582,35 +734,72 @@
     </section>
 
     <!-- Back Button -->
-    <button onclick="topFunction()" id="myBtn" class="rounded-circle text-center" title="Go to top">
+    <button
+      onclick="topFunction()"
+      id="myBtn"
+      class="rounded-circle text-center"
+      title="Go to top"
+    >
       <i class="material-icons">arrow_upward</i>
     </button>
 
     <!-- Footer -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center p-4 bg-dark">
-      <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 LEC STUDIO</span>
+    <footer class="footer bg-dark p-4">
+      <div class="container d-flex align-items-center justify-content-center">
+        <span class="text-muted align-items-center"
+          >&copy; 2022 LEC STUDIO</span
+        >
+
+        <ul
+          class="nav col-md-4 justify-content-end list-unstyled d-flex justify-content-center text-center"
+        >
+          <li class="icon mx-2">
+            <a
+              href="https://www.linkedin.com/in/mendeja-alex-82a5a1249/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="icon mx-2">
+            <a href="https://www.facebook.com/lexbobik" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+
+          <li class="icon mx-2">
+            <a href="https://www.instagram.com/mendeja.alex/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="icon mx-2">
+            <a
+              href="https://www.roblox.com/users/3678291405/profile"
+              target="_blank"
+              ><i class="fa-solid fa-gamepad"></i
+            ></a>
+          </li>
+
+          <li class="icon d-flex mx-2 align-items-center">
+            <i class="fa fa-eye"></i><span id="count" class="mx-2">100</span>
+          </li>
+        </ul>
+
+        <!-- <p id="count" class="text-muted align-items-center"> 0 </p> -->
       </div>
-  
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mx-3">
-        <li class="ms-3"><a href="https://www.linkedin.com/in/mendeja-alex-82a5a1249/"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li class="ms-3"><a href="https://www.facebook.com/lexbobik"><i class="fa-brands fa-facebook"></i></a></li>
-        <li class="ms-3"><a href="https://www.instagram.com/mendeja.alex/"><i class="fa-brands fa-instagram"></i></a></li>
-        <li class="ms-3"><a href="https://www.roblox.com/users/3678291405/profile"><i class="fa-solid fa-gamepad"></i></a></li>
-      </ul>
     </footer>
 
+    <!-- CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
 
-     <!-- Modal Script -->
-     <script type="text/javascript">
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <!-- Modal Script -->
+    <script type="text/javascript">
       document.addEventListener("click", function (e) {
         if (e.target.classList.contains("project-item")) {
           const src = e.target.getAttribute("src");
@@ -627,10 +816,15 @@
     <script>
       var mybutton = document.getElementById("myBtn");
 
-      window.onscroll = function() {scrollFunction()};
+      window.onscroll = function () {
+        scrollFunction();
+      };
 
       function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
           mybutton.style.display = "block";
         } else {
           mybutton.style.display = "none";
@@ -642,8 +836,6 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
-    </script>
-
     </script>
   </body>
 </html>
